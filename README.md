@@ -8,6 +8,14 @@ ZAP1 anchors Merkle roots to Zcash mainnet via shielded memos. This contract ver
 
 Uses the EIP-152 BLAKE2b-F precompile for gas-efficient hashing with ZAP1's domain-separated personalization strings.
 
+## Deployed
+
+| Network | Address | Etherscan |
+|---|---|---|
+| Sepolia | `0x3fD65055A8dC772C848E7F227CE458803005C87F` | [View](https://sepolia.etherscan.io/address/0x3fD65055A8dC772C848E7F227CE458803005C87F) |
+
+5 Zcash mainnet anchor roots registered. Live demo: [frontiercompute.io/bridge.html](https://frontiercompute.io/bridge.html)
+
 ## Contracts
 
 - `BLAKE2b.sol` - BLAKE2b-256 with personalization via EIP-152 precompile
