@@ -72,7 +72,7 @@ contract ZAP1Verifier {
         uint256 positions,
         bytes32 expectedRoot
     ) external returns (bool valid) {
-        require(siblings.length > 0 && siblings.length <= 32, "invalid proof length");
+        require(siblings.length <= 32, "proof too deep");
 
         bytes32 current = leafHash;
 
@@ -108,7 +108,7 @@ contract ZAP1Verifier {
         uint256 positions,
         bytes32 expectedRoot
     ) external view returns (bool valid) {
-        require(siblings.length > 0 && siblings.length <= 32, "invalid proof length");
+        require(siblings.length <= 32, "proof too deep");
 
         bytes32 current = leafHash;
 
