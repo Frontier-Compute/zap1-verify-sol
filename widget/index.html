@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verify ZAP1 Proof</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: monospace; background: #0a0a0a; color: #e0e0e0; padding: 2rem; max-width: 800px; margin: 0 auto; }
+h1 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+p.sub { color: #888; margin-bottom: 2rem; font-size: 0.85rem; }
+label { display: block; margin-top: 1rem; color: #aaa; font-size: 0.8rem; }
+input, select, textarea { width: 100%; padding: 0.5rem; margin-top: 0.3rem; background: #1a1a1a; border: 1px solid #333; color: #e0e0e0; font-family: monospace; font-size: 0.85rem; }
+button { margin-top: 1.5rem; padding: 0.7rem 2rem; background: #1a3a1a; border: 1px solid #2a5a2a; color: #4a9a4a; font-family: monospace; font-size: 0.9rem; cursor: pointer; }
+button:hover { background: #2a4a2a; }
+#result { margin-top: 1.5rem; padding: 1rem; background: #111; border: 1px solid #333; white-space: pre-wrap; font-size: 0.85rem; display: none; }
+.ok { color: #4a9a4a; }
+.fail { color: #9a4a4a; }
+a { color: #4a7a9a; }
+</style>
+</head>
+<body>
+<h1>Verify ZAP1 Proof</h1>
+<p class="sub">Verify a Zcash attestation on-chain. Connects to the ZAP1Verifier contract via your wallet.</p>
+
+<label>Chain</label>
+<select id="chain">
+<option value="sepolia">Sepolia (testnet)</option>
+<option value="base" disabled>Base (pending deploy)</option>
+<option value="arbitrum" disabled>Arbitrum (pending deploy)</option>
+</select>
+
+<label>Leaf Hash (hex, no 0x prefix)</label>
+<input id="leafHash" placeholder="344a05bf...">
+
+<label>Siblings (one per line, hex)</label>
+<textarea id="siblings" rows="4" placeholder="abc123...\ndef456..."></textarea>
+
+<label>Positions (bit-packed integer)</label>
+<input id="positions" type="number" value="0">
+
+<label>Expected Root (hex, no 0x prefix)</label>
+<input id="root" placeholder="024e3651...">
+
+<button onclick="verify()">Verify Proof</button>
+
+<div id="result"></div>
+
+<script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"></script>
+<script src="verify.js"></script>
+</body>
+</html>

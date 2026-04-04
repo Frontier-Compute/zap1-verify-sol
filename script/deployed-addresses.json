@@ -1,0 +1,22 @@
+{
+  "sepolia": {
+    "chainId": 11155111,
+    "address": "0x3fD65055A8dC772C848E7F227CE458803005C87F",
+    "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+    "explorer": "https://sepolia.etherscan.io"
+  },
+  "base": {
+    "chainId": 8453,
+    "address": "",
+    "rpc": "https://mainnet.base.org",
+    "explorer": "https://basescan.org",
+    "note": "deploy pending - ~$3 cost"
+  },
+  "arbitrum": {
+    "chainId": 42161,
+    "address": "",
+    "rpc": "https://arb1.arbitrum.io/rpc",
+    "explorer": "https://arbiscan.io",
+    "note": "deploy pending - ~$3 cost"
+  }
+}
