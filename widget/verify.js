@@ -4,6 +4,11 @@ const CONTRACTS = {
     rpc: "https://ethereum-sepolia-rpc.publicnode.com",
     chainId: 11155111,
   },
+  arbitrum: {
+    address: "0x9D0B26010C9a7a2a8509Fd1a3407B741d9C10e3a",
+    rpc: "https://arb1.arbitrum.io/rpc",
+    chainId: 42161,
+  },
 };
 
 const ABI = [
