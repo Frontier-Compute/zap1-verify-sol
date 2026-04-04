@@ -13,10 +13,9 @@
   },
   "base": {
     "chainId": 8453,
-    "address": "",
+    "address": "0x3fD65055A8dC772C848E7F227CE458803005C87F",
     "rpc": "https://mainnet.base.org",
-    "explorer": "https://basescan.org",
-    "note": "wallet needs ETH on Base for gas"
+    "explorer": "https://basescan.org"
   },
   "hyperliquid": {
     "chainId": 999,
