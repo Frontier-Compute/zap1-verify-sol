@@ -5,18 +5,17 @@
     "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
     "explorer": "https://sepolia.etherscan.io"
   },
+  "arbitrum": {
+    "chainId": 42161,
+    "address": "0x9D0B26010C9a7a2a8509Fd1a3407B741d9C10e3a",
+    "rpc": "https://arb1.arbitrum.io/rpc",
+    "explorer": "https://arbiscan.io"
+  },
   "base": {
     "chainId": 8453,
     "address": "",
     "rpc": "https://mainnet.base.org",
     "explorer": "https://basescan.org",
-    "note": "deploy pending - ~$3 cost"
-  },
-  "arbitrum": {
-    "chainId": 42161,
-    "address": "",
-    "rpc": "https://arb1.arbitrum.io/rpc",
-    "explorer": "https://arbiscan.io",
-    "note": "deploy pending - ~$3 cost"
+    "note": "wallet needs ETH on Base for gas"
   }
 }
