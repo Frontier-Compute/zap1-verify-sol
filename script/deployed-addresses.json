@@ -19,9 +19,8 @@
   },
   "hyperliquid": {
     "chainId": 999,
-    "address": "",
+    "address": "0x3fD65055A8dC772C848E7F227CE458803005C87F",
     "rpc": "https://rpc.hyperliquid.xyz/evm",
-    "explorer": "https://explorer.hyperliquid.xyz",
-    "note": "wallet needs HYPE for gas"
+    "explorer": "https://explorer.hyperliquid.xyz"
   }
 }
