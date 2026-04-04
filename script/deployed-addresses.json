@@ -17,5 +17,12 @@
     "rpc": "https://mainnet.base.org",
     "explorer": "https://basescan.org",
     "note": "wallet needs ETH on Base for gas"
+  },
+  "hyperliquid": {
+    "chainId": 999,
+    "address": "",
+    "rpc": "https://rpc.hyperliquid.xyz/evm",
+    "explorer": "https://explorer.hyperliquid.xyz",
+    "note": "wallet needs HYPE for gas"
   }
 }

@@ -20,8 +20,12 @@ case "$CHAIN" in
     RPC_URL="https://ethereum-sepolia-rpc.publicnode.com"
     CHAIN_ID=11155111
     ;;
+  hyperliquid)
+    RPC_URL="https://rpc.hyperliquid.xyz/evm"
+    CHAIN_ID=999
+    ;;
   *)
-    echo "Unknown chain: $CHAIN (use base, arbitrum, or sepolia)"
+    echo "Unknown chain: $CHAIN (use base, arbitrum, sepolia, hyperliquid)"
     exit 1
     ;;
 esac
