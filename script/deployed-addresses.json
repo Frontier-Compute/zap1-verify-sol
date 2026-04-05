@@ -22,5 +22,11 @@
     "address": "0x3fD65055A8dC772C848E7F227CE458803005C87F",
     "rpc": "https://rpc.hyperliquid.xyz/evm",
     "explorer": "https://explorer.hyperliquid.xyz"
+  },
+  "near": {
+    "type": "near",
+    "programId": "zap1anchor.testnet",
+    "rpc": "https://rpc.testnet.near.org",
+    "explorer": "https://testnet.nearblocks.io"
   }
 }
