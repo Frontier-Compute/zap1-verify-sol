@@ -28,5 +28,17 @@
     "programId": "zap1anchor.testnet",
     "rpc": "https://rpc.testnet.near.org",
     "explorer": "https://testnet.nearblocks.io"
+  },
+  "zcash-relay-sepolia": {
+    "chainId": 11155111,
+    "address": "0x6C379D65B4D71A1e5F52296c4c33da504Cd3E489",
+    "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+    "explorer": "https://sepolia.etherscan.io",
+    "contract": "ZcashRelay",
+    "genesis": {
+      "height": 3300566,
+      "hash": "0x0000000000804690ff70f414b980c59219d9906e5628eafe80d785c5fe9bc819",
+      "merkleRoot": "0xaccdd76e98737617195f603c4d1012ae065cd82b77ffdfb23ab1d32d8ad28bb8"
+    }
   }
 }
