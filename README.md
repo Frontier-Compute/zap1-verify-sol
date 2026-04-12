@@ -14,7 +14,7 @@ Uses the EIP-152 BLAKE2b-F precompile for gas-efficient hashing with ZAP1's doma
 |---|---|---|
 | Sepolia | `0x3fD65055A8dC772C848E7F227CE458803005C87F` | [View](https://sepolia.etherscan.io/address/0x3fD65055A8dC772C848E7F227CE458803005C87F) |
 
-6 Zcash mainnet anchor roots registered. Live demo: [frontiercompute.io/bridge.html](https://frontiercompute.io/bridge.html)
+2 Zcash mainnet anchor roots registered. Live demo: [frontiercompute.cash/bridge.html](https://frontiercompute.cash/bridge.html)
 
 ## Contracts
 
